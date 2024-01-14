@@ -6,10 +6,10 @@ const Header = () => {
     <div className="header d-flex align-items-center justify-content-space-between">
         <div className="header-left-items d-flex align-items-center">
             <div className="menu-bar">
-                <a href="#">{menuIcon({width:24,height:24})}</a>
+                <a href="/">{menuIcon({width:24,height:24})}</a>
             </div>
             <div className="logo">
-                <a href="#">{youtubelogoIcon({width:90,height:20})}</a>
+                <a href="/">{youtubelogoIcon({width:90,height:20})}</a>
             </div>
         </div>
         <div className="header-middle-items d-flex align-items-center">
