@@ -45,7 +45,7 @@ function Sidebar() {
   return (
     <div className="sidebar d-flex align-items-center pointer">
         {sidebarData.map((sidebar,index) => (
-            <div key={index} className={`sidebar-item d-flex align-items-center ${sidebar.title == active ? "active" : ""}`} onClick={() => handleTabClick(sidebar.title)}>
+            <div key={index} className={`sidebar-item d-flex align-items-center ${sidebar.title === active ? "active" : ""}`} onClick={() => handleTabClick(sidebar.title)}>
                 
                 {sidebar.text ?(
                     <div className="top-line d-flex align-items-center">
